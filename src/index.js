@@ -24,8 +24,8 @@ app.use(express.json()); // para entender los datos que vienen en formato json
 
 // Routes
 app.get('/', (req, res) => {
-    res.json({message: 'hola HDCM'});
-});
+    res.render('index')
+})
 
 
 // Public files
